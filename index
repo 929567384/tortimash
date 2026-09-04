@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Tortimash | Tortas Saludables Andinas</title>
+
+    <link rel="stylesheet" href="estilo.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- ================= HEADER ================= -->
+
+<header class="header">
+
+    <div class="logo">
+        <span>🍰</span>
+        <div>
+            <h1>TORTIMASH</h1>
+            <p>Tortas saludables andinas</p>
+        </div>
+    </div>
+
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#beneficios">Beneficios</a>
+        <a href="#productos">Tortas</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+</header>
+
+
+<!-- ================= INICIO / BANNER ================= -->
+
+<section id="inicio" class="hero">
+
+    <div class="slide activo">
+
+        <div class="hero-text">
+
+            <span class="etiqueta">🌱 PRODUCTO BANDERA</span>
+
+            <h2>
+                El sabor de los Andes
+                <strong>en una torta saludable</strong>
+            </h2>
+
+            <p>
+                Descubre Tortimash, tortas elaboradas con productos
+                locales y el sabor especial de la mashua.
+            </p>
+
+            <a class="boton"
+               href="https://wa.me/51934046194?text=Hola%20Tortimash,%20quiero%20hacer%20un%20pedido">
+                📱 Pedir por WhatsApp
+            </a>
+
+        </div>
+
+        <div class="hero-image">
+            <img src="imagenes/torta1.jpg" alt="Torta saludable Tortimash">
+        </div>
+
+    </div>
+
+
+    <div class="slide">
+
+        <div class="hero-text">
+
+            <span class="etiqueta">🥔 SABOR ANDINO</span>
+
+            <h2>
+                Hechas con
+                <strong>mashua</strong>
+            </h2>
+
+            <p>
+                Una propuesta diferente que combina tradición,
+                productos andinos y creatividad.
+            </p>
+
+            <a class="boton"
+               href="#productos">
+                Ver nuestras tortas
+            </a>
+
+        </div>
+
+        <div class="hero-image">
+            <img src="imagenes/torta2.jpg" alt="Torta de mashua">
+        </div>
+
+    </div>
+
+
+    <!-- Botones del slider -->
+
+    <button class="flecha izquierda" onclick="cambiarSlide(-1)">
+        ❮
+    </button>
+
+    <button class="flecha derecha" onclick="cambiarSlide(1)">
+        ❯
+    </button>
+
+</section>
+
+
+<!-- ================= NOSOTROS ================= -->
+
+<section id="nosotros" class="seccion">
+
+    <div class="contenido">
+
+        <div class="texto">
+
+            <span class="subtitulo">SOBRE TORTIMASH</span>
+
+            <h2>
+                Una torta diferente,
+                <span>un sabor con identidad</span>
+            </h2>
+
+            <p>
+                <strong>Tortimash</strong> es un emprendimiento dedicado
+                a la elaboración de tortas saludables utilizando productos
+                locales y andinos.
+            </p>
+
+            <p>
+                Nuestro producto bandera es la <strong>mashua</strong>,
+                un alimento tradicional de los Andes que incorporamos
+                en nuestras preparaciones para ofrecer una experiencia
+                diferente y deliciosa.
+            </p>
+
+            <p>
+                Queremos revalorar los productos de nuestra tierra y
+                llevar sus sabores a nuestras familias mediante
+                productos innovadores y saludables.
+            </p>
+
+        </div>
+
+        <div class="imagen-nosotros">
+            <img src="imagenes/torta3.jpg" alt="Producto Tortimash">
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= MASHUA ================= -->
+
+<section class="mashua">
+
+    <div class="mashua-contenido">
+
+        <div>
+
+            <span class="subtitulo">NUESTRO INGREDIENTE ESPECIAL</span>
+
+            <h2>
+                🌱 La mashua
+            </h2>
+
+            <p>
+                La mashua es un tubérculo andino tradicional que forma
+                parte de nuestra identidad y cultura alimentaria.
+            </p>
+
+            <p>
+                En Tortimash buscamos aprovechar los productos de nuestra
+                región para crear nuevas alternativas de alimentación.
+            </p>
+
+        </div>
+
+        <div class="mashua-icono">
+            🥔
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= BENEFICIOS ================= -->
+
+<section id="beneficios" class="seccion">
+
+    <div class="titulo-seccion">
+
+        <span class="subtitulo">¿POR QUÉ TORTIMASH?</span>
+
+        <h2>
+            Beneficios de nuestra propuesta
+        </h2>
+
+        <p>
+            Una alternativa que combina sabor, tradición y productos locales.
+        </p>
+
+    </div>
+
+
+    <div class="beneficios">
+
+        <div class="beneficio">
+
+            <div class="icono">🌱</div>
+
+            <h3>Productos andinos</h3>
+
+            <p>
+                Utilizamos ingredientes provenientes de nuestra
+                agricultura local y andina.
+            </p>
+
+        </div>
+
+
+        <div class="beneficio">
+
+            <div class="icono">🥔</div>
+
+            <h3>Mashua</h3>
+
+            <p>
+                Incorporamos la mashua como ingrediente distintivo
+                de nuestra propuesta.
+            </p>
+
+        </div>
+
+
+        <div class="beneficio">
+
+            <div class="icono">❤️</div>
+
+            <h3>Hecho con dedicación</h3>
+
+            <p>
+                Cada torta es preparada pensando en ofrecer
+                calidad y buen sabor.
+            </p>
+
+        </div>
+
+
+        <div class="beneficio">
+
+            <div class="icono">🏔️</div>
+
+            <h3>Identidad andina</h3>
+
+            <p>
+                Revaloramos los sabores y productos tradicionales
+                de nuestra tierra.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= PRODUCTOS ================= -->
+
+<section id="productos" class="productos">
+
+    <div class="titulo-seccion">
+
+        <span class="subtitulo">NUESTRO CATÁLOGO</span>
+
+        <h2>
+            🍰 Nuestras tortas
+        </h2>
+
+        <p>
+            Elige tu favorita y realiza tu pedido.
+        </p>
+
+    </div>
+
+
+    <div class="catalogo">
+
+
+        <!-- PRODUCTO 1 -->
+
+        <article class="producto">
+
+            <img src="imagenes/torta1.jpg"
+                 alt="Torta de mashua clásica">
+
+            <div class="producto-info">
+
+                <span class="categoria">
+                    PRODUCTO BANDERA
+                </span>
+
+                <h3>
+                    Torta de Mashua Clásica
+                </h3>
+
+                <p>
+                    Deliciosa torta elaborada con mashua
+                    y productos locales.
+                </p>
+
+                <div class="precio">
+                    S/ 35.00
+                </div>
+
+                <a class="boton-producto"
+                   href="https://wa.me/51934046194?text=Hola%20Tortimash,%20quiero%20pedir%20la%20Torta%20de%20Mashua%20Clásica">
+                    Pedir ahora
+                </a>
+
+            </div>
+
+        </article>
+
+
+        <!-- PRODUCTO 2 -->
+
+        <article class="producto">
+
+            <img src="imagenes/torta2.jpg"
+                 alt="Torta de mashua y chocolate">
+
+            <div class="producto-info">
+
+                <span class="categoria">
+                    FAVORITA
+                </span>
+
+                <h3>
+                    Torta de Mashua y Chocolate
+                </h3>
+
+                <p>
+                    Una combinación especial de sabores
+                    andinos y chocolate.
+                </p>
+
+                <div class="precio">
+                    S/ 40.00
+                </div>
+
+                <a class="boton-producto"
+                   href="https://wa.me/51934046194?text=Hola%20Tortimash,%20quiero%20pedir%20la%20Torta%20de%20Mashua%20y%20Chocolate">
+                    Pedir ahora
+                </a>
+
+            </div>
+
+        </article>
+
+
+        <!-- PRODUCTO 3 -->
+
+        <article class="producto">
+
+            <img src="imagenes/torta3.jpg"
+                 alt="Torta con frutos andinos">
+
+            <div class="producto-info">
+
+                <span class="categoria">
+                    ESPECIAL
+                </span>
+
+                <h3>
+                    Torta con Frutos Andinos
+                </h3>
+
+                <p>
+                    Una deliciosa combinación con ingredientes
+                    representativos de nuestra región.
+                </p>
+
+                <div class="precio">
+                    S/ 45.00
+                </div>
+
+                <a class="boton-producto"
+                   href="https://wa.me/51934046194?text=Hola%20Tortimash,%20quiero%20pedir%20la%20Torta%20con%20Frutos%20Andinos">
+                    Pedir ahora
+                </a>
+
+            </div>
+
+        </article>
+
+
+    </div>
+
+</section>
+
+
+<!-- ================= LLAMADO A LA ACCIÓN ================= -->
+
+<section class="pedido">
+
+    <div>
+
+        <h2>
+            ¿Se te antojó una Tortimash? 🍰
+        </h2>
+
+        <p>
+            Haz tu pedido directamente por WhatsApp.
+        </p>
+
+        <a class="boton blanco"
+           href="https://wa.me/51934046194?text=Hola%20Tortimash,%20quiero%20hacer%20un%20pedido">
+            📱 Hacer mi pedido
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- ================= CONTACTO ================= -->
+
+<section id="contacto" class="seccion contacto">
+
+    <div class="titulo-seccion">
+
+        <span class="subtitulo">CONTÁCTANOS</span>
+
+        <h2>
+            Estamos para atenderte
+        </h2>
+
+    </div>
+
+
+    <div class="contacto-contenedor">
+
+        <div class="contacto-card">
+
+            <div class="contacto-icono">
+                📱
+            </div>
+
+            <h3>
+                WhatsApp
+            </h3>
+
+            <p>
+                934 046 194
+            </p>
+
+            <a class="boton"
+               href="https://wa.me/51934046194?text=Hola%20Tortimash,%20quiero%20información">
+                Escribir por WhatsApp
+            </a>
+
+        </div>
+
+
+        <div class="contacto-card">
+
+            <div class="contacto-icono">
+                🎂
+            </div>
+
+            <h3>
+                Tortimash
+            </h3>
+
+            <p>
+                Tortas saludables con productos andinos
+                y locales.
+            </p>
+
+        </div>
+
+
+        <div class="contacto-card">
+
+            <div class="contacto-icono">
+                🌱
+            </div>
+
+            <h3>
+                Nuestra propuesta
+            </h3>
+
+            <p>
+                Sabor, tradición e innovación con
+                identidad andina.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <div class="footer-logo">
+        🍰 TORTIMASH
+    </div>
+
+    <p>
+        Tortas saludables con sabor andino.
+    </p>
+
+    <p class="copyright">
+        © 2026 Tortimash. Todos los derechos reservados.
+    </p>
+
+</footer>
+
+
+<!-- ================= BOTÓN WHATSAPP ================= -->
+
+<a class="whatsapp"
+   href="https://wa.me/51934046194?text=Hola%20Tortimash,%20quiero%20hacer%20un%20pedido"
+   target="_blank"
+   aria-label="Contactar por WhatsApp">
+
+    💬
+
+</a>
+
+
+<!-- ================= JAVASCRIPT ================= -->
+
+<script>
+
+let slideActual = 0;
+
+const slides = document.querySelectorAll(".slide");
+
+
+function mostrarSlide(numero) {
+
+    slides.forEach(slide => {
+        slide.classList.remove("activo");
+    });
+
+    slideActual = (numero + slides.length) % slides.length;
+
+    slides[slideActual].classList.add("activo");
+}
+
+
+function cambiarSlide(direccion) {
+
+    mostrarSlide(slideActual + direccion);
+
+}
+
+
+// Cambio automático cada 5 segundos
+
+setInterval(() => {
+
+    cambiarSlide(1);
+
+}, 5000);
+
+</script>
+
+
+</body>
+</html>
